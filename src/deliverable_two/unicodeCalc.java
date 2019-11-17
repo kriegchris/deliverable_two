@@ -53,5 +53,6 @@ public class unicodeCalc {
 		 */
 		difference = Math.abs(totalStr2 - totalStr1);
 		System.out.println("Difference (as absolute value): " + difference);
+		input.close();
 	}
 }
